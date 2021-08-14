@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Website</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar h-nav-resp">
+      <div class="right">
+        <img src="../images/logo1.png" alt="" class="logo" />
+        <p class="para">Demo</p>
+      </div>
+      <div class="left">
+        <ul class="ul v-class-resp">
+          <li class="lists">
+            <a href="">Home</a>
+          </li>
+          <li class="lists">
+            <a href="#list">List</a>
+          </li>
+          <li class="lists">
+            <a href="#table">Table</a>
+          </li>
+          <li class="lists">
+            <a href="#contact">Form</a>
+          </li>
+        </ul>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="slider">
+      <div class="images">
+        <img src="../images/1.jpg" alt="" class="slideimg active" />
+        <img src="../images/2.jpg" alt="" class="slideimg" />
+        <img src="../images/3.jpg" alt="" class="slideimg" />
+        <img src="../images/4.jpg" alt="" class="slideimg" />
+        <img src="../images/5.jpg" alt="" class="slideimg" />
+      </div>
+      <div class="navigation">
+        <div class="btn active"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+        <div class="btn"></div>
+      </div>
+    </div>
+    </section>
+    
+    <section class="last">
+      <h1 class="h2" id="list">Lists</h1>
+      <div class="grid">
+        <div class="griditems">
+          <h1 class="h2">Unodered List</h1>
+          <p class="para"><ul class="paras" >
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ul></p>
+        </div>
+        <div class="griditems"><h1 class="h2">Unodered List</h1>
+          <p class="para"><ul class="paras" type="square">
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ul></p></div>
+        <div class="griditems"><h1 class="h2">Unodered List</h1>
+          <p class="para"><ul class="paras" type="circle">
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ul></p></div>
+        <div class="griditems"><h1 class="h2">Odered List</h1>
+          <p class="para"><ol class="paras">
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ol></p></div>
+        <div class="griditems"><h1 class="h2">Odered List</h1>
+          <p class="para"><ol class="paras" type="A">
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ol></p></div>
+        <div class="griditems"><h1 class="h2">Odered List</h1>
+          <p class="para"><ol class="paras" type="I">
+            <li>Kathmandu</li>
+            <li>Pokhara</li>
+            <li>Dhangadi</li>
+            <li>Mahendranagar</li>
+          </ol></p></div>
+      </div>
+    </section>
+    <br> <br>
+    <h1 class="h1" align="center">Table</h1>
+    <div class="table" id="table">
+      <table  border="2" align="center" bgcolor="red">
+        <tr  id="head" >
+          <td>S.N</td>
+          <td>Name</td>
+          <td>Class</td>
+          <td>Roll no</td>
+        </tr>
+        <tr class="toe">
+          <td>1</td>
+          <td>Saroj Bhatt</td>
+          <td rowspan="3">11</td>
+          <td>42</td>
+        </tr>
+        <tr class="toe">
+          <td>2</td>
+          <td>Sajan Bhatt</td>
+          <td>40</td>
+          <!-- <td></td> -->
+        </tr>
+        <tr class="toe">
+          <td>3</td>
+          <td>Santosh Pant</td>
+          <td>41</td>
+          <!-- <td></td> -->
+        </tr>
+        <tr class="toe">
+          <td>4</td>
+          <td>Suman Khatri</td>
+          <td rowspan="3">12</td>
+          <td>51</td>
+        </tr>
+        <tr class="toe">
+          <td >5</td>
+          <td>Nabin Pant</td>
+          <!-- <td></td> -->
+          <td>45</td>
+        </tr>
+        <tr class="toe">
+          <td>6</td>
+          <td>Ashish Bhatt</td>
+          <td>11</td>
+          <!-- <td></td> -->
+        </tr>
+      </table>
+    </div>
+    <form action="">
+      <section class="contact" id="contact">
+        <div class="divcontact">
+        <h1 class="h1">Form</h1>
+        <input type="text" class="forms" placeholder="Enter Your Name" />
+        <input type="email" class="forms" placeholder="Enter Your Email" />
+        <input type="password" class="forms" placeholder="Enter Your Password" />
+        <textarea
+        name="text"
+        id="text"
+        cols="30"
+        rows="10"
+        class="forms"
+        placeholder="Elaborate Your Concren"
+        ></textarea>
+        <div class="radio">
+        <input type="radio" class="form" name="gender"  /> Male
+        <input type="radio" class="form" name="gender" /> Female
+        <input type="radio" class="form" name="gender"  /> Other </div>
+        <br>
+        <h2 class="h2">Which are  your favourite P.Ls</h2>
+        <div class="radio check">
+        <input type="checkbox" class="form " >  C <br>
+        <input type="checkbox" class="form">    Javascript <br>
+        <input type="checkbox" class="form">    Java <br>
+        <input type="checkbox" class="form">    Flutter <br>
+      </div>
+      <br>
+      <h2 class="h2">Where are you from ?</h2>
+      <div class="radio">
+        <select name="option" id="">
+        <option value="Val">Kathmandu</option>
+        <option value="Val">Mahendranagar</option>
+        <option value="Val">Pokhara</option>
+        <option value="Val">Dhangadi</option>
+      </select>
+      </div>
+
+
+        <button class="btn1">Submit</button>
+        <input type="reset" value="Reset" class="btn1">
+        
+        
+      </div>
+    </section>
+  </form>
+    <footer class="footer">
+      <p class="para">Copyright &copy; www.xyz.com -All Rights Reserved</p>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
